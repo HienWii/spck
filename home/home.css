@@ -1,0 +1,140 @@
+/* Navbar */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: green;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Carousel */
+
+.carousel-img {
+    display: block;
+    height: 600px;
+    width: 100%;
+}
+
+.carousel-inner {
+    padding: 0;
+    border-style: none
+}
+
+.container-head {
+    height: 100%;
+    width: 100%;
+    border: 20px solid #333;
+}
+
+/* Ads */
+
+.ad-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.space {
+    background-color: green;
+    width: 100%;
+    height: 10px;
+}
+
+/* Searching */
+
+#search {
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #14396A !important;
+    font-size: 17px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    padding: 10px 25px;
+    border: 2px solid #1A9C30;
+    background: #00C900;
+    background: linear-gradient(to top, #00C900, #008000);
+    margin: 10px;
+}
+
+#search:hover input {
+    width: 400px;
+}
+
+#search input {
+    width: 0;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+
+}
+
+#search input::placeholder {
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    /* Optional for styling */
+}
+
+/* Button */
+
+#btn {
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white !important;
+    font-size: 20px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    padding: 10px 25px;
+    border: 2px solid #1A9C30;
+    background: #00C900;
+    background: linear-gradient(to top, #00C900, #008000);
+    margin: 10px;
+}
+
+#btn:hover {
+    color: white !important;
+    background: #008000;
+    background: linear-gradient(to top, #008000, #00C900);
+}
+
+/* Logo */
+.logo-nav {
+    color: green;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+body {
+    color: #333;
+}
