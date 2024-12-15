@@ -1,4 +1,4 @@
-const loginBtn = document.querySelector("#loginBtn");
+const loginBtn = document.querySelector(".logInBtn");
 const emailLogin = document.querySelector("#emailLogIn");
 const passwordLogin = document.querySelector("#passwordLogIn")
 const userInfo = JSON.parse(localStorage.getItem("user"));
@@ -10,7 +10,7 @@ loginBtn.addEventListener('click', function (e) {
     const passwordValue = passwordLogin.value;
     if (emailValue === email && passwordValue === password) {
         alert("Đăng nhập hợp lệ");
-        window.location = "../home.html";
+        window.location = "../home/home.html";
     } else {
         alert("Tài khoản và mật khẩu không hợp lệ");
     }

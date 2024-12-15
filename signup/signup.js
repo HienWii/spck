@@ -5,7 +5,7 @@ const emailInput = document.querySelector("#emailSignUp");
 const passwordInput = document.querySelector("#passwordSignUp");
 const confirmInput = document.querySelector("#confirmPassword");
 // Button 
-const submitButton = document.querySelector("#signupBtn");
+const submitButton = document.querySelector(".signUpBtn");
 // Label
 const passwordError = document.querySelector("#passwordError");
 
@@ -33,7 +33,7 @@ submitButton.addEventListener('click', function (e) {
             });
             localStorage.setItem("user", information)
             alert("Sucess")
-            window.location.href = "./home.html"
+            window.location.href = "../home/home.html"
         }
     }
 });
