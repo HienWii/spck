@@ -2,6 +2,7 @@
 const userBtn = document.querySelector(".user-nav")
 const articleContainer = document.querySelector(".container-body")
 const searchInput = document.querySelector(".search-input")
+const contactBtn = document.querySelector(".contract-nav")
 let articlesList = []
 fetch('https://674c31e354e1fca9290be25f.mockapi.io/Articles', {
     method: 'GET',
@@ -80,6 +81,10 @@ function searchFunc() {
 //Button
 userBtn.addEventListener("click", function () {
     window.location.href = "../user/user.html";
+})
+
+contactBtn.addEventListener("click", function () {
+    window.location.href = "https://beacons.ai/hienwii";
 })
 
 
